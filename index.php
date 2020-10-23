@@ -9,7 +9,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-        <h1 class="text-center">Hello World</h1>
+        <h1 class="text-center">Hello World X2</h1>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.min.js"></script>
     </body>
