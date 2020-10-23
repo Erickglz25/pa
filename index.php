@@ -8,6 +8,7 @@
         <title>Title Page</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/e-style.css" rel="stylesheet">
+        <link href="css/l-style.css" rel="stylesheet">
     </head>
     <body>
         <h1 class="text-center">Hello World X2</h1>
