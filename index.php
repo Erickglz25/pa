@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Title Page</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/e-style.css" rel="stylesheet">
         <link href="css/l-style.css" rel="stylesheet">
     </head>
     <body>
