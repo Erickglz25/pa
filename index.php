@@ -9,9 +9,12 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/e-style.css" rel="stylesheet">
         <link href="css/l-style.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
     </head>
     <body>
         <h1 class="text-center">Hello World X2</h1>
+        <i class="fa fa-times"></i>
+        <br><br>
         https://mobirise.com/bootstrap-template/navbar-template.html
         https://codepen.io/divinector/full/wZQVEP
         https://codepen.io/reezhdesign/full/mNyejG
