@@ -11,6 +11,11 @@
     </head>
     <body>
         <h1 class="text-center">Hello World X2</h1>
+        https://mobirise.com/bootstrap-template/navbar-template.html
+        https://codepen.io/divinector/full/wZQVEP
+        https://codepen.io/reezhdesign/full/mNyejG
+        https://codepen.io/ntym/full/oVNxdJ
+        https://codepen.io/oskarborowski/full/gZRLjV
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.min.js"></script>
     </body>
