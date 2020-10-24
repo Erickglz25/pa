@@ -32,7 +32,19 @@
         </div>
 
         <footer>
-
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col">
+                        One of three columns
+                      </div>
+                      <div class="col">
+                        One of three columns
+                      </div>
+                      <div class="col">
+                        One of three columns
+                      </div>
+                </div>
+            </div>
         </footer>
 
 

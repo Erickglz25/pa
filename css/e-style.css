@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;;
+    color: white !important;
 }
 
 .e-bkg1{
@@ -30,12 +31,15 @@ body{
 } 
 
 .e-video{
-    margin: 50px;
+    margin: 100px 50px;
 }
 
 footer{
     width: 100%;
     background-color: #242424;
     background-size: cover;
-    min-height: 300px;
+}
+
+footer .row{
+    height: auto;
 }
