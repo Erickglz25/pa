@@ -5,16 +5,50 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Title Page</title>
+        <title>CASP GTO PREVENIR</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/e-style.css" rel="stylesheet">
         <link href="css/l-style.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
     </head>
     <body>
-        <h1 class="text-center">Hello World X2</h1>
-        <i class="fa fa-times"></i>
-        
+
+        <div class="e-bkg1">
+            <a href="/" class="e-top-logo"><img  src="https://via.placeholder.com/150x50" alt=""></a>
+            <a href="/" class="e-top-logo"><img src="https://via.placeholder.com/150x50" alt=""></a>
+            <a href="/" class="e-top-logo"><img src="https://via.placeholder.com/150x50" alt=""></a>
+        </div>
+
+        <div class="e-bkg2">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+
+                    <div class="col text-center">
+                        <img class="e-video" src="https://via.placeholder.com/720x480" alt="">
+                    </div>
+
+                  </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col">
+                        One of three columns
+                      </div>
+                      <div class="col">
+                        One of three columns
+                      </div>
+                      <div class="col">
+                        One of three columns
+                      </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="js/jquery.min.js"></script>
         <div class="l-fondo">
             <div class="l-superior">
                 <div class="row justify-content-end">
