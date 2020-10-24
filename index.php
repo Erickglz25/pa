@@ -14,13 +14,40 @@
     <body>
         <h1 class="text-center">Hello World X2</h1>
         <i class="fa fa-times"></i>
-        <br><br>
-        https://mobirise.com/bootstrap-template/navbar-template.html
-        https://codepen.io/divinector/full/wZQVEP
-        https://codepen.io/reezhdesign/full/mNyejG
-        https://codepen.io/ntym/full/oVNxdJ
-        https://codepen.io/oskarborowski/full/gZRLjV
+        
+        <div class="container">
+            <div class="timer-area">
+                <h1>Próximo evento </h1>
+                <ul id="countdown">
+                <li> <span class="days">00</span>
+                <p class="timeRefDays">días</p>
+                </li>
+                <li> <span class="hours">00</span>
+                <p class="timeRefHours">horas</p>
+                </li>
+                <li> <span class="minutes">00</span>
+                <p class="timeRefMinutes">minutos</p>
+                </li>
+                <li> <span class="seconds">00</span>
+                <p class="timeRefSeconds">segundos</p>
+                </li>
+                </ul>
+            </div>
+        </div>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.min.js"></script>
+        <script src="js/countdown.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#countdown").countdown({
+                    date: "25 october 2020 12:00:00",
+                    format: "on"
+                },
+                
+                function() {
+                    // callback function
+                });
+            });
+        </script>
     </body>
 </html>
