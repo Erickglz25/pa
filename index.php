@@ -15,39 +15,50 @@
         <h1 class="text-center">Hello World X2</h1>
         <i class="fa fa-times"></i>
         
-        <div class="container">
-            <div class="timer-area">
-                <h1>Próximo evento </h1>
-                <ul id="countdown">
-                <li> <span class="days">00</span>
-                <p class="timeRefDays">días</p>
-                </li>
-                <li> <span class="hours">00</span>
-                <p class="timeRefHours">horas</p>
-                </li>
-                <li> <span class="minutes">00</span>
-                <p class="timeRefMinutes">minutos</p>
-                </li>
-                <li> <span class="seconds">00</span>
-                <p class="timeRefSeconds">segundos</p>
-                </li>
-                </ul>
+        <div class="l-fondo">
+            <div class="l-superior">
+                <div class="row justify-content-end">
+                    <div class="col-md-3">
+                        <img class="l-btn-redes" src="images/logo-facebook-color.png"/>
+                        <img class="l-btn-redes" src="images/logo-instagram-color.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="l-medio">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-12"><h2 class=l-titulo>Proyectos</h2></div>
+                    <div class="col-md-11"><div class="l-divisor-blanco"></div></div>
+                <div>    
+                <div class="row justify-content-md-center l-botones">
+                    <div class="col-md-2">
+                        <img class="l-btn-micros" src="images/Teatro.png"/>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="l-btn-micros" src="images/Rally-Virtual.png"/>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="l-btn-micros" src="images/Prevenir-Tambien-es-Divertido.png"/>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="l-btn-micros" src="images/Cine-Foros-Virtuales.png"/>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="l-btn-micros" src="images/Juego-Colaborativo.png"/>
+                    </div>
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-11"><div class="l-divisor-blanco"></div></div>
+                <div>
+            </div>
+            <div class="l-inferior">
+                <div class="l-politica">
+                    <a href=""><img class="l-btn-politicas" src="images/Aviso-de-privacidad.png"/></a>
+                </div>
             </div>
         </div>
-        <script src="js/bootstrap.min.js"></script>
+
         <script src="js/jquery.min.js"></script>
-        <script src="js/countdown.js"></script>
-        <script>
-            $(document).ready(function(){
-                $("#countdown").countdown({
-                    date: "25 october 2020 12:00:00",
-                    format: "on"
-                },
-                
-                function() {
-                    // callback function
-                });
-            });
-        </script>
+        <script src="js/bootstrap.min.js"></script>
+
     </body>
 </html>

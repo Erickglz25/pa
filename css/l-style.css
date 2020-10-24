@@ -1,37 +1,7 @@
-/**********************************************************************************
-
-	Project Name: 
-	Project Description: 
-	File Name:
-	Author: Adi Purdila
-	Author URI: http://www.adipurdila.com
-	Version: 1.0.0
-	
-**********************************************************************************/
-/* ---------- TYPOGRAPHY ---------- */
-body {
-    font: 1em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-    color: #1f2225;
-  }
-  p a {
-    color: #2a9ccc;
-  }
-  p a:hover {
-    color: #1f2225;
-  }
-  h1,
-  h2 {
-    font-family: Georgia, serif;
-    margin-bottom: 1em;
-  }
-  h1 {
-    font-size: 2em;
-    line-height: 3em;
-  }
-  h2 {
-    font-size: 1.2em;
-    line-height: 1.5em;
-  }
+@font-face {
+  font-family: "Baloon";
+  src: url("../fonts/baloo-regular-webfont.woff");
+}
   /* ---------- LAYOUT ---------- */
   .container {
     width: 100%;
@@ -157,4 +127,45 @@ body {
     text-transform: uppercase;
     font-size: .875em;
   }
-  
+
+  body{
+    font-family: "Baloon";
+  }
+
+  .l-fondo{
+      background-color: #002470;
+  }
+
+  .l-fondo .row{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .l-btn-micros{
+    width: 100%;
+  }
+
+  .l-btn-redes{
+    width: 50px;
+    margin: 10px 20px;
+  }
+
+  .l-divisor-blanco{
+    height: 5px;
+    background-color: #ffffff;
+  }
+
+  .l-titulo{
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .l-botones{
+    margin-top: 5%;
+    margin-bottom: 12%;
+  }
+
+  .l-btn-politicas{
+    width: 300px
+  }
+
