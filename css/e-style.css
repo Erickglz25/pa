@@ -21,6 +21,7 @@ body{
 
 .e-top img{
     margin: 0 10px 0 10px;
+    width: 100px;
 }
 
 .e-bkg2{
@@ -40,7 +41,11 @@ body{
 }
 
 .e-video{
-    margin: 100px 50px;
+   width: 100%;
+}
+
+.e-videocontainer{
+    margin: 5%;
 }
 
 footer{
@@ -112,5 +117,20 @@ footer .row{
     .e-title-sub{
         font-size: 14px;
         margin-bottom: 0;
+    }
+
+    .e-videocontainer{
+        margin: 0px;
+        margin-bottom: -2%;
+        padding: 0;
+    }
+
+    .e-top img{
+        width: 60px;
+    }
+
+    .e-top {
+        float: none;
+        text-align: center;
     }
   }
