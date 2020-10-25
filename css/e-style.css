@@ -36,6 +36,7 @@ body{
 
 .e-top-left{
     float: left;
+    width: 100%;
 }
 
 .e-video{
@@ -83,6 +84,7 @@ footer .row{
 .e-f-align{
     text-align: left;
 }
+
 
 @media(max-width: 420px) {
     .small3{
