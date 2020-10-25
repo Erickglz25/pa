@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang=""> 
+    <head> 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CASP GTO PREVENIR</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/e-style.css" rel="stylesheet">
+        <link href="../css/l-style.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="e-bkg1">
+            <a href="/" class="e-top-logo"><img  src="https://via.placeholder.com/150x50" alt=""></a>
+            <a href="/" class="e-top-logo"><img src="https://via.placeholder.com/150x50" alt=""></a>
+            <a href="/" class="e-top-logo"><img src="https://via.placeholder.com/150x50" alt=""></a>
+        </div>
+
+        <div class="e-bkg2">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+
+                    <div class="col text-center">
+                        <img class="e-video" src="https://via.placeholder.com/720x480" alt="">
+                    </div>
+
+                  </div>
+            </div>
+        </div>
+        <div class="l-fondo">
+            <div class="l-superior">
+                <div class="l-espacio-vacio"></div>
+            </div>
+            <div class="l-medio">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-12"><h2 class=l-titulo>Próximo Evento</h2></div>
+                    <div class="col-md-11"><div class="l-divisor-blanco"></div></div>
+                </div>
+                <div class="row justify-content-md-center l-contador">
+                    <div class="timer-area">
+                        <ul id="countdown">
+                        <li> 
+                        <p class="timeRefDays">dias</p>
+                        <span class="days">00</span>
+                        </li>
+                        <li> 
+                        <p class="timeRefHours">horas</p>
+                        <span class="hours">00</span>
+                        </li>
+                        <li> 
+                        <p class="timeRefMinutes">minutos</p>
+                        <span class="minutes">00</span>
+                        </li>
+                        <li> 
+                        <p class="timeRefSeconds">segundos</p>
+                        <span class="seconds">00</span>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-11"><div class="l-divisor-blanco"></div></div>
+                <div>
+            </div>
+            <div class="l-inferior">
+                <div class="l-politica">
+                    <a href=""><img class="l-btn-politicas" src="../images/Aviso-de-privacidad.png"/></a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col">
+                        One of three columns
+                      </div>
+                      <div class="col">
+                        One of three columns
+                      </div>
+                      <div class="col">
+                        One of three columns
+                      </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/countdown.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#countdown").countdown({
+                    date: "25 october 2020 12:00:00",
+                    format: "on"
+                },
+                
+                function() {
+                    // callback function
+                });
+            });
+        </script>
+
+    </body>
+</html>
