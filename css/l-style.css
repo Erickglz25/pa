@@ -7,6 +7,11 @@
   font-family: "Digital";
   src: url("../fonts/ds-digib-webfont.woff");
 }
+
+@font-face {
+  font-family: "Proxima";
+  src: url("../fonts/proximanova-regular-webfont.woff");
+}
   /* ---------- LAYOUT ---------- */
   
   .timer-area {
@@ -81,7 +86,8 @@
   .l-contador{
     font-family: "Digital";
     color: #ffffff;
-    margin-top: 5%;
+    margin-top: 3%;
+    padding: 0% 5%;
   }
 
   .timer-area{
@@ -96,6 +102,32 @@
     padding-right: 40px;
   }
 
+  .l-text{
+    padding: 5% 9%;
+    text-align: justify;
+    font-family: 'Proxima';
+  }
+
+  .l-registro{
+    padding: 0% 20%;
+  }
+
+  .l-btn-registro{
+    width: 60%;
+  }
+  
+  .l-textos-largos{
+    background-color: #0464B3;
+    text-align: justify;
+    font-family: 'Proxima';
+    padding: 2%;
+  }
+  .l-seccion-textos{
+    padding: 0 5% 2%;
+  }
+  .l-subtitulo{
+    font-family: 'Baloon';
+  }
 @media (max-width:676px){
   .l-btn-micros{
     padding: 10%;
