@@ -15,35 +15,35 @@
   /* ---------- LAYOUT ---------- */
   
   .timer-area {
-    text-align: center;
-    margin-bottom: 5%;
+  text-align: center;
+  margin-bottom: 0%;
   }
   /* ---------- TIMER ---------- */
   ul#countdown li {
-    display: inline-block;
-    width: 125px;
-    text-align: center;
+  display: inline-block;
+  width: 125px;
+  text-align: center;
   }
   ul#countdown li span {
-    font-size: 7em;
-    font-weight: bold;
-    color: #ffffff;
-    height: 108px;
-    line-height: 108px;
-    position: relative;
+  font-size: 7em;
+  font-weight: bold;
+  color: #ffffff;
+  height: 108px;
+  line-height: 108px;
+  position: relative;
   }
   ul#countdown li p.timeRefDays,
   ul#countdown li p.timeRefHours,
   ul#countdown li p.timeRefMinutes,
   ul#countdown li p.timeRefSeconds {
-    margin-top: 1em;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 1.5em;
+  margin-top: 1em;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.5em;
   }
 
   body{
-    font-family: "Baloon";
+  font-family: "Baloon";
   }
 
   .l-fondo{
@@ -51,112 +51,169 @@
   }
 
   .l-fondo .row{
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
   }
 
   .l-btn-micros{
-    width: 100%;
+  width: 100%;
   }
 
   .l-btn-redes{
-    width: 50px;
-    margin: 10px 20px;
+  width: 50px;
+  margin: 10px 20px;
   }
 
   .l-divisor-blanco{
-    height: 5px;
-    background-color: #ffffff;
+  height: 5px;
+  background-color: #ffffff;
   }
 
   .l-titulo{
-    color: #ffffff;
-    text-align: center;
+  color: #ffffff;
+  text-align: center;
+  margin: 70px 0;
   }
 
   .l-botones{
-    margin-top: 5%;
-    margin-bottom: 12%;
+  margin-top: 5%;
+  margin-bottom: 12%;
   }
 
   .l-btn-politicas{
-    width: 300px
+  width: 300px
   }
 
   .l-contador{
-    font-family: "Digital";
-    color: #ffffff;
-    margin-top: 3%;
-    padding: 0% 5%;
+  font-family: "Digital";
+  color: #ffffff;
+  margin: 35px auto;
+  padding: 0% 5%;
   }
 
   .timer-area{
-    background-color: #434343;
+  background-color: #434343;
   }
   .l-espacio-vacio{
-    height: 2em;;
-    width: 100%;
+  height: 0px;
+  width: 100%;
   }
 
   #countdown{
-    padding-right: 40px;
+  padding-right: 40px;
+  margin-bottom: 0;
   }
 
   .l-text{
-    padding: 5% 9%;
-    text-align: justify;
-    font-family: 'Proxima';
+  padding: 5% 9%;
+  text-align: justify;
+  font-family: 'Proxima';
   }
 
   .l-registro{
-    padding: 0% 20%;
+  padding: 0% 20%;
   }
 
   .l-btn-registro{
-    width: 60%;
+  width: 60%;
+  margin: 35px;
   }
   
   .l-textos-largos{
-    background-color: #0464B3;
-    text-align: justify;
-    font-family: 'Proxima';
-    padding: 2%;
+  background-color: #0464B3;
+  text-align: justify;
+  font-family: 'Proxima';
+  padding: 35px;
   }
   .l-seccion-textos{
-    padding: 0 5% 2%;
+  padding: 0 5% 0%;
+  margin-bottom: 70px;
   }
   .l-subtitulo{
-    font-family: 'Baloon';
+  font-family: 'Baloon';
   }
+
+  .l-politica{
+      margin:70px;
+  }
+
+  .l-col-right{
+      margin-left: 70px;
+  }
+
 @media (max-width:676px){
   .l-btn-micros{
-    padding: 10%;
+  padding: 10%;
   }
   .l-btn-politicas{
-    padding: 0 10%;
-    width: 100%;
+  padding: 0 10%;
+  width: 100%;
   }
 
   ul#countdown li {
-    width: 20%;
+  width: 20%;
   }
 
   ul#countdown li span {
-    font-size: 3.3em;
+  font-size: 3.3em;
   }
   ul#countdown li p.timeRefDays,
   ul#countdown li p.timeRefHours,
   ul#countdown li p.timeRefMinutes,
   ul#countdown li p.timeRefSeconds {
-    font-size: 1.1em;
+  font-size: 1em;
   }
 
   #countdown{
-    padding: 0 20px;;
+  padding: 0 20px;;
   }
 
   .timer-area{
-    width: 100%;
-    
+  width: 100%;
   }
+
+  .l-seccion-textos{
+  padding: 0 5% 0%;
+  }
+
+}
+
+
+@media(max-width: 558px){
+
+  .l-col-right {
+      margin: 35px 0; 
+  }
+
+  .l-textos-largos {
+      flex-basis: auto;
+  }
+
+  .l-textos-largos p {
+      font-size: 0.8em;
+  }
+
+  .l-seccion-textos {
+      margin-bottom: 00px;
+  }
+
+  .l-btn-registro {
+      width: 60%;
+      margin: 35px 35px 0;
+  }
+
+  .l-btn-politicas {
+      padding: 0;
+  }
+
+  .l-registro {
+      padding: 35px;
+  }
+
+  .l-subtitulo {
+      font-family: 'Baloon';
+      font-size: 1.2em;
+  }
+  
+
 }

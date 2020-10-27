@@ -8,329 +8,12 @@
         <title>Teatro</title>
         <link href="http://caspgto.com/css/bootstrap.min.css" rel="stylesheet">
         <link href="http://caspgto.com/css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/e-style.css" rel="stylesheet">
+        <link href="../css/l-style.css" rel="stylesheet">
+        <link href="http://caspgto.com/css/font-awesome.min.css" rel="stylesheet">
         <link rel="shortcut icon" type="images/png" href="http://caspgto.com/images/gto.png"/>
         
     </head>
-    <style>
-        body{
-            margin: 0;
-            padding: 0;;
-            color: white !important;
-        }
-
-        .e-bkg1{
-            background-color: #042374;
-            background-size: cover;
-            width: 100%;
-            height: 70px;
-            -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
-            -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
-            box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
-            margin: 0;
-        }
-
-        .e-global-top{
-            width: 100%; 
-        }
-
-        .e-top-right img{
-            margin: 0 10px 0 10px;
-            width: 100px;
-        }
-
-        .e-bkg2{
-            width: 100%;
-            background-color: #0464B3;
-            background-size: cover;
-        }
-
-        .e-bkg2 .row{
-            height: auto;
-            color:white;
-        } 
-
-        .e-top-left{
-            float: left;
-            font-size: 36px;
-        }
-
-        .e-top-right{
-            float: right;
-        }
-
-        .e-video{
-        width: 100%;
-        }
-
-        .e-videocontainer{
-            margin: 5%;
-            padding: 0;
-        }
-
-        footer{
-            width: 100%;
-            background-color: #242424;
-            background-size: cover;
-        }
-
-        footer .row{
-            height: auto;
-        }
-
-
-        .logo2{
-            width: 60px;
-        }
-
-        .e-icon{
-            font-size: 45px !important;
-        }
-
-        .e-title-footer{
-            font-weight: 600;
-            font-size: 36px;
-            margin-top: 50px;
-            margin-bottom: 0;
-        }
-        .e-title-sub{
-            font-size: 24px;
-        }
-
-        .e-sub{
-            padding: 50px 0 25px;
-        }
-
-        .small3{
-            width: 25%;
-            text-align: center;
-        }
-
-        .e-f-align{
-            text-align: left;
-        }
-
-        @media(max-width: 520px) {
-
-            .e-top-right img{
-                width: 75px;
-            }
-
-            .e-top-left{
-                font-size: 28px;
-            }
-        }
-
-        @media(max-width: 420px) {
-            .small3{
-                font-size: 10px;
-            }
-
-            .e-f-align{
-                text-align: center;
-            }
-
-            .e-sub{
-                padding: 25px 0 25px;
-            }
-
-            .e-icon{
-                font-size: 24px !important;
-            }
-            
-            .e-title-footer{
-                font-weight: 600;
-                font-size: 24px;
-                margin-top: 25px;
-                margin-bottom: 0;
-            }
-            .e-title-sub{
-                font-size: 14px;
-                margin-bottom: 0;
-            }
-
-            .e-videocontainer{
-                margin: 0px;
-                margin-bottom: -2%;
-                padding: 0;
-            }
-
-            .e-top-right img{
-                width: 60px;
-            }
-
-            .e-top-left{
-                font-size: 20px;
-            }
-
-        }
-
-
-    </style>
-
-    <style>
-        @font-face {
-            font-family: "Baloon";
-            src: url("../fonts/baloo-regular-webfont.woff");
-        }
-        
-        @font-face {
-            font-family: "Digital";
-            src: url("../fonts/ds-digib-webfont.woff");
-        }
-        
-        @font-face {
-            font-family: "Proxima";
-            src: url("../fonts/proximanova-regular-webfont.woff");
-        }
-            /* ---------- LAYOUT ---------- */
-            
-            .timer-area {
-            text-align: center;
-            margin-bottom: 5%;
-            }
-            /* ---------- TIMER ---------- */
-            ul#countdown li {
-            display: inline-block;
-            width: 125px;
-            text-align: center;
-            }
-            ul#countdown li span {
-            font-size: 7em;
-            font-weight: bold;
-            color: #ffffff;
-            height: 108px;
-            line-height: 108px;
-            position: relative;
-            }
-            ul#countdown li p.timeRefDays,
-            ul#countdown li p.timeRefHours,
-            ul#countdown li p.timeRefMinutes,
-            ul#countdown li p.timeRefSeconds {
-            margin-top: 1em;
-            color: #ffffff;
-            text-transform: uppercase;
-            font-size: 1.5em;
-            }
-        
-            body{
-            font-family: "Baloon";
-            }
-        
-            .l-fondo{
-                background-color: #002470;
-            }
-        
-            .l-fondo .row{
-            margin-left: 0;
-            margin-right: 0;
-            }
-        
-            .l-btn-micros{
-            width: 100%;
-            }
-        
-            .l-btn-redes{
-            width: 50px;
-            margin: 10px 20px;
-            }
-        
-            .l-divisor-blanco{
-            height: 5px;
-            background-color: #ffffff;
-            }
-        
-            .l-titulo{
-            color: #ffffff;
-            text-align: center;
-            }
-        
-            .l-botones{
-            margin-top: 5%;
-            margin-bottom: 12%;
-            }
-        
-            .l-btn-politicas{
-            width: 300px
-            }
-        
-            .l-contador{
-            font-family: "Digital";
-            color: #ffffff;
-            margin-top: 3%;
-            padding: 0% 5%;
-            }
-        
-            .timer-area{
-            background-color: #434343;
-            }
-            .l-espacio-vacio{
-            height: 2em;;
-            width: 100%;
-            }
-        
-            #countdown{
-            padding-right: 40px;
-            }
-        
-            .l-text{
-            padding: 5% 9%;
-            text-align: justify;
-            font-family: 'Proxima';
-            }
-        
-            .l-registro{
-            padding: 0% 20%;
-            }
-        
-            .l-btn-registro{
-            width: 60%;
-            }
-            
-            .l-textos-largos{
-            background-color: #0464B3;
-            text-align: justify;
-            font-family: 'Proxima';
-            padding: 2%;
-            }
-            .l-seccion-textos{
-            padding: 0 5% 2%;
-            }
-            .l-subtitulo{
-            font-family: 'Baloon';
-            }
-        @media (max-width:676px){
-            .l-btn-micros{
-            padding: 10%;
-            }
-            .l-btn-politicas{
-            padding: 0 10%;
-            width: 100%;
-            }
-        
-            ul#countdown li {
-            width: 20%;
-            }
-        
-            ul#countdown li span {
-            font-size: 3.3em;
-            }
-            ul#countdown li p.timeRefDays,
-            ul#countdown li p.timeRefHours,
-            ul#countdown li p.timeRefMinutes,
-            ul#countdown li p.timeRefSeconds {
-            font-size: 1.1em;
-            }
-        
-            #countdown{
-            padding: 0 20px;;
-            }
-        
-            .timer-area{
-            width: 100%;
-            
-            }
-        }
-    </style>
     <body>  
 
         <div class="e-bkg1 row align-items-center">
@@ -368,7 +51,8 @@
                     <div class="col-md-11"><div class="l-divisor-blanco"></div></div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-3">
                         <a href="https://forms.gle/1UmUiGT59URCVQQB8" target="_blank" class="l-registro"><img class="l-btn-registro" src="http://caspgto.com/images/Registro.png"/></a>
                     </div>
                     <div class="col-md-8 l-contador">
@@ -400,7 +84,7 @@
             </div>
             <div class="l-inferior">
                 <div class="l-politica">
-                    <a href="http://caspgto.com/aviso-privacidad.html"><img class="l-btn-politicas" src="http://caspgto.com/images/Aviso-de-privacidad.png"/></a>
+                    <a href="http://caspgto.com/aviso-privacidad.html"><img class="l-btn-politicas" src="../images/Aviso-de-privacidad.png"/></a>
                 </div>
             </div>
             <div class="row justify-content-md-center" style="width: 100%;">
@@ -419,7 +103,7 @@
                     premios en efectivo. Consulta las bases del concurso en este sitio.</p>
                 </div>
                 <div class="col-md-12"><h4 class="l-titulo">¡Prevenir está en tus manos! </h4></div>
-                <div class="col-md-5 l-textos-largos">
+                <div class="col l-textos-largos">
                     <h4 class="l-subtitulo">Bases del Concurso:</h4>
                     <p>LA SECRETARÍA DE  SEGURIDAD PÚBLICA DEL ESTADO  Y LA SECRETARÍA DE EDUCACIÓN DE GUANAJUATO.</p>
                     <p>CONVOCA A:</p>
@@ -445,7 +129,7 @@
                     2do. Lugar	$ 2,000.00</br>
                     3er. Lugar	$ 1,000.00</p>
                 </div>
-                <div class="col-md-5 offset-md-2 l-textos-largos">
+                <div class="col l-textos-largos l-col-right">
                     <h4 class="l-subtitulo">Bases del concurso </h4>
                 
                 <p>•	Ya que fuiste participante de Artes Escénicas Virtuales (Obras de Teatro) </p>
