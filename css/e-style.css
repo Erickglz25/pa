@@ -15,8 +15,8 @@ body{
     margin: 0;
 }
 
-.e-top{
-    float: right;
+.e-global-top{
+    width: 100%; 
 }
 
 .e-top img{
@@ -37,9 +37,13 @@ body{
 
 .e-top-left{
     float: left;
-    width: 60%;
-    padding: 10px 0px 0px 10px;
+    font-size: 36px;
 }
+
+.e-top-right{
+    float: right;
+}
+
 .e-videocontainer{
     padding: 100px 200px;
 }
