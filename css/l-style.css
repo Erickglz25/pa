@@ -76,8 +76,8 @@
   }
 
   .l-botones{
-  margin-top: 5%;
-  margin-bottom: 12%;
+  margin-top: 35px;
+  margin-bottom: 35px;
   }
 
   .l-btn-politicas{
@@ -142,6 +142,17 @@
   }
 
 @media (max-width:676px){
+
+  .e-socials{
+    padding-top: 35px;
+    text-align: center;
+  }
+
+  .e-top-right-index{
+     float: none;
+    text-align: center;
+}
+
   .l-btn-micros{
   padding: 10%;
   }
