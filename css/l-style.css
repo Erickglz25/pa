@@ -47,7 +47,10 @@
   }
 
   .l-fondo{
-      background-color: #002470;
+    background: #1F3F82;
+    background: -webkit-linear-gradient(bottom right, #1F3F82, #002570);
+    background: -moz-linear-gradient(bottom right, #1F3F82, #002570);
+    background: linear-gradient(to top left, #1F3F82, #002570);
   }
 
   .l-fondo .row{
