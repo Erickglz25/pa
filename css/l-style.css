@@ -145,6 +145,15 @@
       margin-left: 70px;
   }
 
+  .l-sinopsis{
+    margin-top: 70px;
+    width: 100%;
+  }
+
+  .l-video-sinopsis{
+    margin: 5% 0;
+  }
+
 @media (max-width:676px){
 
   .e-socials{
